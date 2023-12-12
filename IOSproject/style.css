@@ -1,0 +1,137 @@
+
+.main {
+    background-color: #80725e;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-style:double;
+    border-radius: 2px;
+    padding: 0;
+
+}
+select{
+    background-color:#f9f9df;
+    color: #80725e;
+    font-family: "Abril Fatface";
+    border-color: #f9f9df;
+    font-size: 200%;
+
+}
+option{
+    background-color: #80725e;
+    border-bottom: #f9f9df;
+    color:#f9f9df;
+    font-family: "Abril Fatface";
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-color: #f9f9df;
+    font-size: 110%;
+}
+img{
+    height:100%;
+    width: fit-content;
+}
+input[type="text"]{
+    width:100%;
+    height:40px;
+    font-size: 190%;
+    background-color: #80725e;
+    color:#f9f9df;
+    font-family: "Abril Fatface";
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-color: #f9f9df;
+}
+input[type="date"]{
+    width:100%;
+    height:40px;
+    font-size: 190%;
+    background-color: #80725e;
+    color:#f9f9df;
+    font-family: "Abril Fatface";
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-color: #f9f9df;
+}
+input[type="number"]{
+    width:100%;
+    height:40px;
+    font-size:190%;
+    background-color: #80725e;
+    color:#f9f9df;
+    font-family: "Abril Fatface";
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1;
+    border-color: #f9f9df;
+}
+input[type="text"]::placeholder{
+color: #f9f9df;
+}
+input[type="button"]{
+    width:20%;
+    height:fit-content;
+    font-size: 210%;
+    margin-top: 2%;
+    margin-left: 4%;
+    color: #80725e;
+    background-color:#f9f9df ;
+    font-family: "Abril Fatface";
+    border: 0%;
+    font-weight: bold;
+}
+.img{
+    background-color: #72383D;
+    height: 100%;
+    width: max-content;
+    float:left;
+    position:sticky;
+}
+.subDiv{
+    margin-right: 60%;
+    float:left;
+    position: sticky;
+}
+.register
+{
+    margin-left: 40%;
+    font-family: "Abril Fatface";
+    height: 100%;
+    padding: 0%;
+    text-align: center;
+}
+table{
+    font-size: 90%;
+    text-align: center;
+    height: max-content;
+    margin-left: 25%;
+}
+label
+{
+    font-size: 250%;
+    color:#f9f9df ;
+}
+
+body{
+    background-image:url("back.png");
+    background-size: contain;
+}
+
+h1{
+    color:#f9f9df;
+    text-shadow: violet;
+    
+    padding-bottom: 1%;
+    font-size: 400%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-top: 0%;
+    
+}
+

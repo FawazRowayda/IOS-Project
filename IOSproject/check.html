@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+<title>Check Form </title>
+<link rel='stylesheet' href='style.css' type='text/css' />
+<script type="text/javascript" src="js.js" > </script>
+</head>
+<body><div class="main">
+<div class="img">
+    <img src="Untitled design.png"/>
+</div>
+<div class="register">
+<form name='registration' onSubmit=" formValidation();">
+<h1>Sign up!</h1>
+<table>
+    <tr><th colspan="2"><label for="username">Name</label> </th></tr>
+    <tr><th colspan="2"><input type="text" name="username" size="20" id="username" class="name" required/></th>
+    </tr>
+    <tr><th colspan="2"><label for="email">Email</label></th></tr>
+    <tr><th colspan="2"><input type="text" name="email" size="20" id="email" lang="ar" required/></th></tr>
+    <tr><th colspan="2"><label for="today">Date</label></th></tr>
+    <tr><th colspan="2"><input type="date" name="today" size="20" id="today" required /></th></tr>    
+    <tr><th colspan="2"><label for="birthday">Birthday</label></th></tr>
+<tr><th colspan="2"><input type="date" name="birthday" size="20" id="birthday" required /></th></tr>
+<tr><th colspan="2"><label for="phone">Cell Number</label></th></tr>
+<tr><th >
+    <select name="code" id="code" class="code" >
+        <option value="Code">Code</option>
+        <option value="03">03</option>
+        <option value="70">70</option>
+        <option value="71">71</option>
+        <option value="76">76</option>
+        <option value="78">78</option>
+        <option value="79">79</option>
+        <option value="81">81</option>
+        <option value="01">01</option>
+        <option value="02">02</option>
+        <option value="05">05</option>
+    </select></th><th>
+<input type="text" name="phone" size="20" id="phone" placeholder="6-Digit Here" required/></th></tr>
+</table>
+ 
+
+
+
+<input type="button" name="button" onclick="formValidation()" value="Submit" />
+
+</form> 
+
+</div>
+
+</div>
+</body>
+</html>
